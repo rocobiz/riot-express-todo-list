@@ -2,11 +2,15 @@
   "name": "nodejs-riot-todo",
   "version": "1.0.0",
   "description": "",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/sahat/hackathon-starter.git"
+  },
   "main": "app.js",
   "scripts": {
     "postinstall": "npm rebuild node-sass",
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "test": "nyc mocha --timeout=3000 --exit"
 	
   },
   "author": "Pedro Narciso García Revington <p.revington@gmail.com>",
