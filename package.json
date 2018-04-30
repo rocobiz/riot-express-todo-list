@@ -9,7 +9,7 @@
   "main": "app.js",
   "scripts": {
     "postinstall": "npm rebuild node-sass",
-    "start": "node app.js"
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
 	
   },
